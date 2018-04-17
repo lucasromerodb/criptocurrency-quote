@@ -26,9 +26,10 @@
                                     <option value="MXN">Peso Mexicano</option>
                                     <option value="GBP">Libras</option>
                                     <option value="EUR">Euros</option>
+                                    <option value="ARS">Peso Argentino</option>
                                 </select>
                                 <label>Moneda</label>
-                        </div>    
+                        </div>
                         <div class="input-field col s12">
                             <select id="criptomoneda">
                                 <option value="" disabled selected>Elige Criptomoneda</option>
@@ -44,7 +45,7 @@
                         <div class="spinner"></div>
                         <div id="resultado" class="col s12"></div>
                     </div><!--.formulario-cotizar-->
-                  
+
                 </div>
             </form>
         </div>
@@ -63,13 +64,13 @@
                 $(document).ready(function(){
                     setTimeout(() => {
                         $('select').select();
-                    }, 2000);
-                    
+                    }, 1300);
+
                 });
             })(jQuery);
         </script>
       <style>
-          
+
           body {
             background: #136a8a; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #136a8a, #267871); /* Chrome 10-25, Safari 5.1-6 */
